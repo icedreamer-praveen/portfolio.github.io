@@ -305,8 +305,16 @@ img{
     color: var(--first-color);
 }
 
-.home__social-icon:hover{
-    color: var(--first-color-alt);
+.linkedin__social:hover{
+    color: #0077b5;
+}
+
+.dribble__social:hover{
+    color: #da239d;
+}
+
+.github__social:hover{
+    color: #fca326;
 }
 
 .home__blob{
@@ -979,6 +987,18 @@ img{
 
 .footer__social:hover{
     color: var(--first-color-lighter);
+}
+
+.fb__social:hover{
+    color: #4267B2;
+}
+
+.insta__social:hover{
+    color: #bc2a8d;
+}
+
+.twitter__social:hover{
+    color: #00acee;
 }
 
 .footer__copy{
