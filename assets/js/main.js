@@ -205,3 +205,13 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+var links = document.getElementsByClassName('nav__link');
+console.log(links)
+
+for(i=0;i<links.length;i++){
+    links[i].addEventListener('click',function(){
+        document.querySelector('.active-link').classList.remove('active-link');
+        event.target.classList.add('active-link');
+    })
+}
